@@ -4,11 +4,11 @@ def apmax():
         user_input = input("Please insert an integer divisible by 3: ")
         user_input = int(user_input)
 
-        if user_input % 3 == 0 and user_input != 0:
-            apmax_value = user_input
-            break
-        else:
-            print("Integer wasn't divisible by 3")
+       # if user_input % 3 == 0 and user_input != 0: Removing the possibility of inserted numbers not devisible by 3.
+       #     apmax_value = user_input
+       #     break
+       # else:
+       #     print("Integer wasn't divisible by 3")
     return apmax_value
 
 def approg(apmax_value):
@@ -30,9 +30,9 @@ def appsqr(apmax_value):
         apsqr = apsqr + (ap ** 2)
     print("Sum of squared parts of AP:", apsqr)
 
-# Call apmax and store the result
+
 max_value = apmax()
 
-# Call other functions with the result from apmax
+
 approg(max_value)
 appsqr(max_value)
