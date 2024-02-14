@@ -18,7 +18,7 @@ class Coin:
         elif roll == 4:
             self.sideup = "The coin defies gravity and is sucked into a black whole in the process."
 
-        
+
     def get_sideup(self):
         return self.sideup
 
