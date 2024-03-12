@@ -61,9 +61,6 @@ class PaymentTerminal:
             return True
         else:
             return False
-
-
-
     
     def deposit_money_on_card(self, card: LunchCard, amount: float):
         if amount > 0:
